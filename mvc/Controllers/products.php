@@ -9,6 +9,9 @@ class products extends Controller {
 	}
 
 	function index() {
+		$this->loadModel('products_model');
+		$data = $this->products_model->get_products();
+		$this->set(["data" => $data]);
 		$this->render('index');
 	}
 
