@@ -1,0 +1,33 @@
+#header {
+    size: 100%;
+    background-color: #3853D8;
+    background-size: 100%;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+#bepro {
+    color: white;
+    margin-left: 1cm;
+    margin-top: 1cm;
+    max-width: 100%;
+    height: auto;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-style: italic;
+}
+    
+#home, #shop {
+    justify-content: left;
+    margin-top: 1cm;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+      
+#panier {
+    color: white;
+    margin-top: 1cm;
+    margin-left: auto;
+    margin-right: 1cm;
+}
