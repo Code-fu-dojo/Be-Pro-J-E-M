@@ -1,0 +1,70 @@
+
+#haut {
+    background-image: url(image/index/fondheader.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100%;
+    background-color: #3853D8;
+}
+
+
+#girl1, #girl2 {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    
+    }
+
+.price {
+    color: blue;
+}
+#popproduct {
+    background-color:#232323
+}
+
+.montserrat {
+    font-family: Montserrat (TT);
+}
+
+.playfair {
+    font-family: Playfair Display;
+}
+.price-sale {
+    text-decoration: line-through;
+    color: #9F9F9F;
+    }
+.display-2 {
+    font-family: Playfair Display bold ;
+    color: white;
+}
+
+.white {
+    color: white;
+}
+.background {
+    background-image: url(image/index/produit/produit-4.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+
+}
+.top-60 {
+top: 60%!important;
+ }
+
+ h1 {
+     color: white (bs-);
+ }
+
+  
+
+button {
+    display: inline;
+}
+
+
+
+
