@@ -3,6 +3,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&wght@100&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 <link href="<?= WEBROOT ?>assets/styles/index.css" rel="stylesheet">
+
 <!-- CAROUSEL -->
 <div class="carousel-container container-fluid">
 <div id="carouselExampleControls" class="carousel slide" data-bs-interval="false" data-bs-ride="carousel">
@@ -189,7 +190,7 @@
 
 
 
-                     <!--THIRD LINE -->
+<!--THIRD LINE -->
 <div class="thirdline container mt-4 mb-4">
 
 <div class="row">
@@ -240,7 +241,7 @@
 </div>
 </div>
 
-                        <!--END THIRD LINE -->
+<!--END THIRD LINE -->
 <!--FIN POPULAR PRODUCT -->
 
 

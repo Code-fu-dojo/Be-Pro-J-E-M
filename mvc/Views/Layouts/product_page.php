@@ -1,6 +1,6 @@
     <?= $this->loadParts("header") ?>
 
-  <?= $this->content('index') ?>
+    <?= $this->content('product_page') ?>
 
 
-     <?= $this->loadParts("footer") ?>
+    <?= $this->loadParts("footer") ?>
