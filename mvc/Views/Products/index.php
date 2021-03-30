@@ -131,7 +131,9 @@
 </div>
 
 <div class="row">
+
     <p class="fs-5 playfair fw-light">Essential cotton-blend</p>
+
     <p class="montserrat fs-6 blue-text"><span class="grey-text text-decoration-line-through">$200.000 USD</span> &emsp; $100.00 USD</p>
 </div>
 
@@ -284,4 +286,3 @@
 </div>
 
 <!--FIN CAROUSEL EVENT -->
-
