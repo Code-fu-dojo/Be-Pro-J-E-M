@@ -1,0 +1,66 @@
+body {
+    background-image: url(/assets/images/image/index/imagesJulia/error-404-projet-5sanstext.jpg);
+    background-size:cover ;
+    background-color: rgba(50, 75, 219, 0.802);
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: Playfair Display;
+    color: white;
+    font-size: 65px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+#box {
+    height: auto;
+    width: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+#header {
+    size: 100%;
+    background-color: #3853D8;
+    background-size: 100%;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+#bepro {
+    color: white;
+    margin-left: 1cm;
+    margin-top: 1cm;
+    max-width: 100%;
+    height: auto;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-style: italic;
+}
+    
+#home, #shop {
+    justify-content: left;
+    margin-top: 1cm;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+      
+#panier {
+    color: white;
+    margin-top: 1cm;
+    margin-left: auto;
+    margin-right: 1cm;
+}
