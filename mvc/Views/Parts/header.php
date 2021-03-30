@@ -15,7 +15,7 @@
 <div class="col-sm">
 <nav class="nav">
 <div class="row">
-<a id="home" class="nav-link" href="index.com">HOME </a>
+<a id="home" class="nav-link" href="index.php">HOME </a>
 </div>
 <div class="row">
 <a id="shop" class="nav-link" href="product.php">SHOP</a>

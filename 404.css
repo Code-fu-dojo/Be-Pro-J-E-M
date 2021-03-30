@@ -1,5 +1,5 @@
 body {
-    background-image: url(/assets/images/image/index/imagesJulia/error-404-projet-5sanstext.jpg);
+    background-image: url(./assets/images/image/index/imagesJulia/error-404-projet-5sanstext.jpg);
     background-size:cover ;
     background-color: rgba(50, 75, 219, 0.802);
     height: 100%;
@@ -31,7 +31,7 @@ h1 {
     }
 }
 
-#header {
+#header1 {
     size: 100%;
     background-color: #3853D8;
     background-size: 100%;
