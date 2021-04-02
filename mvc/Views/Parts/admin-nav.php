@@ -1,4 +1,4 @@
- <nav class="sidenav navbar navbar-vertical  fixed-left  navbar-expand-xs navbar-light bg-white" id="sidenav-main">
+<nav class="sidenav navbar navbar-vertical  fixed-left  navbar-expand-xs navbar-light bg-white" id="sidenav-main">
   <div class="scrollbar-inner">
     <!-- Brand -->
 
@@ -56,19 +56,6 @@
         </ul>
         <!-- Divider -->
         <hr class="my-3">
-        <!-- Heading -->
-        <h6 class="navbar-heading p-0 text-muted">
-          <span class="docs-normal">Documentation</span>
-        </h6>
-        <!-- Navigation -->
-        <ul class="navbar-nav mb-md-3">
-          <li class="nav-item">
-            <a class="nav-link" href="<?= WEBROOT ?>admin/example">
-              <i class="fas fa-rocket"></i>
-              <span class="nav-link-text">Getting started</span>
-            </a>
-          </li>
-        </ul>
       </div>
     </div>
   </div>

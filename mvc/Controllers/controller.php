@@ -1,7 +1,6 @@
 <?php
 
 
-
 class Controller {
 
 	var $vars = array();

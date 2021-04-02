@@ -8,29 +8,34 @@ class products_model extends Model {
 	}
 
 	function get_products(){
-		$query = 'SELECT * FROM `produits`';
-		return $this->get_from_DB($query, [], true, true);
+		$query = 'SELECT produits.id, produits.nom, categorie.nom as categorie FROM produits INNER JOIN categorie ON categorie.id = produits.categorie ORDER BY produits.id';
+		return $this->get_from_DB($query, [],true, true);
 	}
 
-	function get_product($id_produit){
-		$query = 'SELECT id, nom, prix, prix_promo, photo1 FROM `produits` WHERE id = :id';
-		return $this->get_from_DB($query, ["id" => $id_produit], true, true);
+	function get_product($id){
+		$query = 'SELECT * FROM produits where produits.id = :id';
+		return $this->get_from_DB($query, ['id' => $id],true);
 	}
 
-	function update_product(){
-		$query = 'UPDATE `produits` SET `id`=[value-1],`nom`=[value-2],`categorie`=[value-3],`description`=[value-4],`prix`=[value-5],`prix_promo`=[value-6],`quantity`=[value-7],
-`photo1`=[value-8],`photo2`=[value-9],`photo3`=[value-10],`photo4`=[value-11],`photo5`=[value-12] WHERE 1';
-	return $this->get_from_DB($query, [], true, true);
+	function update_product($data){
+		$query = 'UPDATE produits SET `nom` = :nom, `categorie` = :categorie, `description` = :description, `prix` = :prix, `prix_promo` = :prix_promo, `quantity` = :quantity, `photo1` = :photo1, `photo2` = :photo2, `photo3` = :photo3, `photo4` = :photo4, `photo5` = :photo5 WHERE id = :id';
+		return $this->get_from_DB($query, ["nom" => $data["nom"], "categorie" => $data["category"], "description" => $data["description"], "prix" => $data["prix"], "prix_promo" => $data["prix_promo"], "quantity" => $data["quantity"], "photo1" => $data["pictures"][1]['name'], "photo2" => $data["pictures"][2]['name'], "photo3" => $data["pictures"][3]['name'], "photo4" => $data["pictures"][4]['name'], "photo5" => $data["pictures"][5]['name'], "id" => $data['id']],false);
 	}
 
-	function delete_product(){
-		$query = 'DELETE FROM `produits` WHERE id = 1';
-		return $this->get_from_DB($query, [], true, true);
+	function delete_product($id){
+		$query = 'DELETE FROM produits WHERE id = :id';
+		return $this->get_from_DB($query, ["id" => $id],false);
 	}
 
-	function add_product(){
-		$query = 'INSERT INTO `produits`(`id`, `nom`, `categorie`, `description`, `prix`, `prix_promo`, `quantity`, `photo1`, `photo2`, `photo3`, `photo4`, `photo5`) 
-VALUES ([value-1],[value-2],[value-3],[value-4],[value-5],[value-6],[value-7],[value-8],[value-9],[value-10],[value-11],[value-12])';
-	return $this->get_from_DB($query, [], true, true);
+	function add_product($data){
+		$query = 'INSERT INTO produits (`nom`, `categorie`, `description`, `prix`, `prix_promo`, `quantity`, `photo1`, `photo2`, `photo3`, `photo4`, `photo5`) VALUES (:nom, :categorie, :description, :prix, :prix_promo, :quantity, :photo1, :photo2, :photo3, :photo4, :photo5)';
+		return $this->get_from_DB($query, ["nom" => $data["nom"], "categorie" => $data["category"], "description" => $data["description"], "prix" => $data["prix"], "prix_promo" => $data["prix_promo"], "quantity" => $data["quantity"], "photo1" => $data["pictures"][1]['name'], "photo2" => $data["pictures"][2]['name'], "photo3" => $data["pictures"][3]['name'], "photo4" => $data["pictures"][4]['name'], "photo5" => $data["pictures"][5]['name']],false);
 	}
+
+
+	function load_cat(){
+		$query = 'SELECT * FROM categorie';
+		return $this->get_from_DB($query, [],true, true);
+	}
+	
 }

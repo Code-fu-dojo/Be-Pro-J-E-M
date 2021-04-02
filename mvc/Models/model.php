@@ -60,7 +60,7 @@ class Model {
 				 	return $row;
 				}
 				else {
-					return ["lastInsertId" => $oPDO->lastInsertId()];
+					return ["lastInsertId" => $oPDO->lastInsertId(), "rowCount" => $oPDOStatement->rowCount()];
 				}
 		    }
 		catch (PDOException $oPdoException)
