@@ -35,7 +35,7 @@ class products extends Controller {
 		$this->loadModel('products_model');
 		$data = $this->products_model->get_product($product_id);
 		$this->set(["data" => $data]);
-		$this->render('index');
+		$this->render('product_page');
 	}
 
 }
