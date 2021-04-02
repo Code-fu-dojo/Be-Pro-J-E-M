@@ -79,21 +79,21 @@
 
 <div class="col-sm-2">  <!-- COLONNE DROITE SUGGESTS -->
 <div class="row">
-<img class="img-fluid img-suggest box" src="./assets/images/image/index/imagesJulia/pullbleu.png" alt="">
+<img class="img-fluid img-suggest box" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/pullbleu.png" alt="">
 </div>
 
 <div class="row">
-<img class="img-fluid img-suggest box" src="./assets/images/image/index/imagesJulia/vestenoir.png" alt="">
-</div>
-
-
-<div class="row">
-<img class="img-fluid img-suggest box" src="./assets/images/image/index/imagesJulia/juperose.png" alt="">
+<img class="img-fluid img-suggest box" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/vestenoir.png" alt="">
 </div>
 
 
 <div class="row">
-<img class="img-fluid img-suggest box" src="./assets/images/image/index/imagesJulia/chalerose.png" alt="">
+<img class="img-fluid img-suggest box" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/juperose.png" alt="">
+</div>
+
+
+<div class="row">
+<img class="img-fluid img-suggest box" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/chalerose.png" alt="">
 </div>
 
 
@@ -129,7 +129,7 @@
 
   <div id="popular-product" class="col-md">
     <a href="beproproduct.php">
-     <img class="mt-4 img-fluid img-shirt" src="./assets/images/image/index/imagesJulia/popularproduct2.png" alt="Popular Product">
+     <img class="mt-4 img-fluid img-shirt" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/popularproduct2.png" alt="Popular Product">
      </a>
   </div> &emsp;
 
@@ -137,7 +137,7 @@
 <div class="row">
 <div class="col-sm-10">
   <a href="beproproduct.php">
-    <img class="img-fluid img-shirt" src="Be-Pro-J-E-M/products/product/assets/images/image/index/imagesJulia/shirt1.png" alt="">
+    <img class="img-fluid img-shirt" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/shirt1.png" alt="">
     </a>
 </div>
     <div class="col-2 pt-1">
@@ -154,7 +154,7 @@
 
   <div class="box col-md">
   <a href="beproproduct.php">
-   <img class="img-fluid img-shirt" src="./assets/images/image/index/imagesJulia/shirt2.png" alt="Popular Product">
+   <img class="img-fluid img-shirt" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/shirt2.png" alt="">
    </a>
    <p class="fs-5 playfair">Flecked cotton blend</p>
    <p class="montserrat fs-6 blue-text">$175.00 USD</p>
@@ -162,7 +162,7 @@
 
   <div class="box col-md">
   <a href="beproproduct.php">
-    <img class="img-fluid img-shirt" src="./assets/images/image/index/imagesJulia/shirt3.png" alt="">
+    <img class="img-fluid img-shirt" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/shirt3.png" alt="">
     </a>
     <p class="fs-5 playfair">Striped cotton t-shirt</p>
     <p class="montserrat fs-6 blue-text">$200.00 USD</p>
