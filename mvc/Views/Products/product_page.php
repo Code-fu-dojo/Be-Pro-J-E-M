@@ -73,7 +73,7 @@
 
 
   <!-- COLONNE MILIEU -->      <div class="col-sm-4 p-3 bg"> 
-<img class="img-fluid img-shirt" src="./assets/images/image/index/imagesJulia/imageproduct1.png" alt="">
+<img class="img-fluid img-shirt" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/imageproduct1.png" alt="">
         </div>  <!-- FIN COLONNE MILIEU -->
 
 
