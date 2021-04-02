@@ -110,7 +110,7 @@
 
   <div id="popular-product" class="col-md">
     <a href="beproproduct.php">
-     <img class="mt-4 img-fluid img-shirt" src="./assets/images/image/index/imagesJulia/popularproduct2.png" alt="Popular Product">
+     <img class="mt-4 img-fluid img-shirt" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/popularproduct2.png" alt="Popular Product">
      </a>
   </div> &emsp;
 

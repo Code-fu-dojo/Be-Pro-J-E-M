@@ -8,11 +8,11 @@
   <div class="carousel-inner">
 
     <div class="carousel-item active">
-         <img class="img-carousel" src="./assets/images/image/index/logotype.png" alt="">
+         <img class="img-carousel" src="<?= WEBROOT ?>/assets/images/image/index/logotype.png" alt="">
    </div>
 
     <div class="carousel-item">
-          <img  class="img-carousel" src="./assets/images/image/index/logotype.png" alt="">
+          <img  class="img-carousel" src="<?= WEBROOT ?>/assets/images/image/index/logotype.png" alt="">
     </div>
 
   </div>
@@ -35,7 +35,7 @@
 <div class="container">
   <div class="row align-items-start">
     <div class="col-sm">
-      <img src="./assets/images/image/index/footer/logo-reseaux.png">
+      <img src="<?= WEBROOT ?>/assets/images/image/index/footer/logo-reseaux.png">
     </div>
     <div class="col-sm">
         <!-- cadre newsletter -->
@@ -51,6 +51,6 @@ value="Submit"></p>
     <div class="col-sm" id="marge">
     <h6 class="legend">CONTACT US<h6>
       <p> <span class="legend">San Francisco, California <br> 400 Castro St, San Francisco, CA <br> (+1) 686-868-9999 </p>
-    <img src="./assets/images/image/index/footer/contactus-payment.png">
+    <img src="<?= WEBROOT ?>assets/images/image/index/footer/contactus-payment.png">
     </div>
 </div>
