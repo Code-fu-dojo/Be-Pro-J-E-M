@@ -11,24 +11,24 @@
 
 <div class="col-sm">
 <nav class="nav">
-<a id="bepro" class="nav-link" href="#">Be.Pro</a>
+<a id="bepro" class="nav-link text-white" href="#">Be.Pro</a>
 </nav>
 </div>
 
 <div class="col-sm">
 <nav class="nav">
 <div class="row">
-<a id="home" class="nav-link" href="index.php">HOME </a>
+<a id="home" class="nav-link text-white" href="index.php">HOME </a>
 </div>
 <div class="row">
-<a id="shop" class="nav-link" href="../mvc/Views/Products/product_page.php">SHOP</a>
+<a id="shop" class="nav-link text-white" href="../mvc/Views/Products/product_page.php">SHOP</a>
 </div>
 </nav>
 </div>
 
 <div class="col-sm">
 <nav class="nav">
-<a id="panier" class="nav-link" href="#">PANIER</a>
+<a id="panier" class="nav-link text-white" href="#">PANIER</a>
 </nav>
 </div>
 
