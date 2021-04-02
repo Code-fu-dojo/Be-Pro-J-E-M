@@ -29,6 +29,7 @@ class admin extends Controller {
 		if ($stateLoad['error'] == false){
 			$data = $_POST;
 			$data["pictures"] = $stateLoad['pictures'];
+			$this->clean_prix_promo($data);
 			$this->loadModel('products_model');
 			$response = $this->products_model->add_product($data);
 			if(!isset($response["lastInsertId"])) {
@@ -104,6 +105,10 @@ class admin extends Controller {
 	        }
 	}
 
+	function clean_prix_promo(&$data) {
+		($data['prix_promo'] == '' || $data['prix_promo'] == null)?$data['prix_promo'] = 0: '';
+	}
+
 	function updateProduct() {
 		if( !isset($_POST) || empty($_POST)) {
 			 header('HTTP/1.0 404 Not Found');
@@ -114,6 +119,7 @@ class admin extends Controller {
 		if ($stateLoad['error'] == false){
 			$data = $_POST;
 			$data["pictures"] = $stateLoad['pictures'];
+			$this->clean_prix_promo($data);
 			$this->loadModel('products_model');
 			$response = $this->products_model->update_product($data);
 			if(!isset($response["lastInsertId"])) {
@@ -145,7 +151,7 @@ class admin extends Controller {
 		        if (!in_array($ext, $extList)) {
 		        	return ['error' => true, 'message' => $this->set_error_code(9)];
 		        }
-		        $name = 'assets/images/products/product_'.$id.'_picture_'.$key;
+		        $name = 'assets/images/image/product/product_'.$id.'_picture_'.$key;
 		        $pictures[] = ["name" => ROOT.$name, "ext" => $ext, "tmp_name" => $tmp_name];
 		        $picturesSaved[$key+1]['name'] = WEBROOT.$name.'.'.$ext;
 		        $noFiles = false;

@@ -1,3 +1,5 @@
+<?php var_dump($data); ?>
+
 <link href="<?= WEBROOT ?>assets/styles/index.css" rel="stylesheet">
 
 <!-- MEN LIFESTYLE CLOTHING -->
@@ -19,7 +21,7 @@
                        <div class="row">  <!-- ROW 1 COL GAUCHE -->
                           <div class="col">
                              <p class="blue-text montserrat fs-6">LIFESTYLE</p>
-                             <h3 class="playfair fs-5">Double-faced Wool Cape Jacket</h3>
+                             <h3 class="playfair fs-5"><?= $data['nom'] ?></h3>
                           </div>
                        </div>
 
@@ -53,11 +55,11 @@
                        <div class="row">   <!-- ROW 3 COL GAUCHE -->
                          <div class="col-sm">
                          <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-                         <p class="fs-5 red-text fw-bold montserrat">$47.00 <span class="fs-6 grey-text text-decoration-line-through fw-light">$64.00</span></p> &emsp;
+                         <p class="fs-5 red-text fw-bold montserrat"><?= $data['prix'] ?><span class="fs-6 grey-text text-decoration-line-through fw-light"><?= $data['prix_promo'] ?></span>$</p> &emsp;
 
                          <div class="montserrat btn-group" role="group" aria-label="Basic example">
                                <button type="button" class="button-addcart button-moins fw-bold">-</button>
-                               <button type="button" class="button-addcart button-nbr fw-bold">02</button>
+                               <button type="button" class="button-addcart button-nbr fw-bold"><?= $data['quantity'] ?></button>
                                <button type="button" class="button-addcart button-plus fw-bold">+</button>
                          </div> &emsp;
 
@@ -73,7 +75,7 @@
 
 
   <!-- COLONNE MILIEU -->      <div class="col-sm-4 p-3 bg"> 
-<img class="img-fluid img-shirt" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/imageproduct1.png" alt="">
+<img class="img-fluid img-shirt" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/imageproduct1.png" alt=""><?= $data['photo1'] ?>
         </div>  <!-- FIN COLONNE MILIEU -->
 
 
