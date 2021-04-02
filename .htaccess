@@ -1,4 +1,4 @@
 RewriteEngine on  
 RewriteRule ^(products[a-zA-Z0-9\/\-\_]*)$ index.php?p=$1
 RewriteRule ^(admin[a-zA-Z0-9\/\-\_]*)$ index.php?p=$1
-ErrorDocument 404 /mvc/404.html
+ErrorDocument 404 /GitBePro/Be-Pro-J-E-M/mvc/Views/Parts/404.php

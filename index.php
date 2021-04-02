@@ -2,7 +2,7 @@
 
 define('WEBROOT', str_replace('index.php','',$_SERVER['SCRIPT_NAME']));
 define('ROOT', str_replace('index.php','',$_SERVER['SCRIPT_FILENAME']));
-
+define('ROOT404',ROOT.'mvc/Views/Parts/404.php');
 
 if(isset($_GET['p'])) {
 $params = explode('/', $_GET['p']);	
@@ -50,14 +50,14 @@ if(isset($params[1]) && method_exists($controller, $params[1])) {
 		}
 		else {
 			 header('HTTP/1.0 404 Not Found');
-	 include('./404.html');
+	 include(ROOT404);
     exit;
 		}
 	}
 }
 else {
 	 header('HTTP/1.0 404 Not Found');
-	 include('./404.html');
+	 include(ROOT404);
     exit;
 }
 

@@ -22,7 +22,7 @@ class admin extends Controller {
 	function addProduct(){
 		if( !isset($_POST) || empty($_POST)) {
 			 header('HTTP/1.0 404 Not Found');
-	 include('./404.html');
+	 include(ROOT404);
     exit;
 		}
 		$stateLoad = $this->load_files();
@@ -107,7 +107,7 @@ class admin extends Controller {
 	function updateProduct() {
 		if( !isset($_POST) || empty($_POST)) {
 			 header('HTTP/1.0 404 Not Found');
-	 include('./404.html');
+	 include(ROOT404);
     exit;
 		}
 		$stateLoad = $this->load_files($_POST['id']);

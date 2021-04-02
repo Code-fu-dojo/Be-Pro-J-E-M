@@ -1,5 +1,6 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-<link rel="stylesheet" href="assets/styles/404.css">
+<link href="<?= WEBROOT ?>assets/styles/404.css" rel="stylesheet">
+
 
 <body>
  
@@ -12,24 +13,24 @@
 
 <div class="col-sm">
 <nav class="nav">
-<a id="bepro" class="nav-link" href="#">Be.Pro</a>
+<a id="bepro1" class="nav-link" href="#">Be.Pro</a>
 </nav>
 </div>
 
 <div class="col-sm">
 <nav class="nav">
 <div class="row">
-<a id="home" class="nav-link" href="index.php">HOME </a>
+<a id="home1" class="nav-link" href="products/index.php">HOME </a>
 </div>
 <div class="row">
-<a id="shop" class="nav-link" href="products/product/1">SHOP</a>
+<a id="shop1" class="nav-link" href="products/product/">SHOP</a>
 </div>
 </nav>
 </div>
 
 <div class="col-sm">
 <nav class="nav">
-<a id="panier" class="nav-link" href="#">PANIER</a>
+<a id="panier1" class="nav-link" href="#">PANIER</a>
 </nav>
 </div>
 

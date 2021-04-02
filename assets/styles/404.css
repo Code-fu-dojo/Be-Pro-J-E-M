@@ -1,5 +1,5 @@
 body {
-    background-image: url(./assets/images/image/index/imagesJulia/error-404-projet-5sanstext.jpg);
+    background-image: url(../images/image/index/imagesJulia/error-404-projet-5sanstext.jpg);
     background-size:cover ;
     background-color: rgba(50, 75, 219, 0.802);
     height: 100%;
@@ -40,7 +40,7 @@ h1 {
     height: auto;
 }
 
-#bepro {
+#bepro1 {
     color: white;
     margin-left: 1cm;
     margin-top: 1cm;
@@ -51,14 +51,14 @@ h1 {
     font-style: italic;
 }
     
-#home, #shop {
+#home1, #shop1 {
     justify-content: left;
     margin-top: 1cm;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
       
-#panier {
+#panier1 {
     color: white;
     margin-top: 1cm;
     margin-left: auto;
