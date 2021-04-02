@@ -6,11 +6,11 @@
   <div id="carousel" class="carousel-inner">
 
     <div class="carousel-item active">
-      <img src="./assets/images/image/index/imagesJulia/madame.png" class="img-fluid z-index:1 img-carousel" alt="...">
+      <img src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/madame.png" class="img-fluid z-index:1 img-carousel" alt="...">
     </div>
 
     <div class="carousel-item">
-      <img src="./assets/images/image/index/imagesJulia/madame.png" class="img-fluid z-index:1 img-carousel" alt="...">
+      <img src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/madame.png" class="img-fluid z-index:1 img-carousel" alt="...">
     </div>
 
                 <!--BOUTON BUYNOW & New Arrival -->
@@ -49,7 +49,7 @@
     <div class="col-sm">
        <div class="row border-row">
           <div class="col-sm-3">
-              <img class="img-banner img-fluid" src="./assets/images/image/index/imagesJulia/Iconfreeship.png" alt="">
+              <img class="img-banner img-fluid" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/Iconfreeship.png" alt="">
           </div>
        <div class="border-banner col-sm-9 montserrat fs-6">
             <p>Free Shipping</p>
@@ -62,7 +62,7 @@
  <div class="col-sm">
     <div class="row border-row">
             <div class="col-sm-3">
-                <img class="img-banner img-fluid" src="./assets/images/image/index/imagesJulia/icon30days.png" alt="">
+                <img class="img-banner img-fluid" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/icon30days.png" alt="">
             </div>
        <div class="border-banner col-sm-9 montserrat fs-6">
                <p>30 days return</p>
@@ -75,7 +75,7 @@
  <div class="col-sm">
     <div class="row border-row">
             <div class="col-sm-3">
-                   <img class="img-banner img-fluid" src="./assets/images/image/index/imagesJulia/iconPayment.png" alt="">
+                   <img class="img-banner img-fluid" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/iconPayment.png" alt="">
             </div>
        <div class="border-banner col-sm-9 montserrat fs-6">
                 <p>Secure payment</p>
@@ -88,7 +88,7 @@
  <div class="col-sm">
     <div class="row border-row">
             <div class="col-sm-3">
-            <img class="img-banner img-fluid" src="./assets/images/image/index/imagesJulia/iconSupport.png" alt="">
+            <img class="img-banner img-fluid" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/iconSupport.png" alt="">
             </div>
        <div class="col-sm-9 montserrat fs-6">
                <p>24H Support</p>
@@ -118,7 +118,7 @@
 <div class="row">
 <div class="col-sm-10">
   <a href="beproproduct.php">
-    <img class="img-fluid img-shirt" src="./assets/images/image/index/imagesJulia/shirt1.png" alt="">
+    <img class="img-fluid img-shirt" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/shirt1.png" alt="">
     </a>
 </div>
     <div class="col-2 pt-1">
@@ -137,7 +137,7 @@
 
   <div class="box col-md">
   <a href="beproproduct.php">
-   <img class="img-fluid img-shirt" src="./assets/images/image/index/imagesJulia/shirt2.png" alt="Popular Product">
+   <img class="img-fluid img-shirt" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/shirt2.png" alt="Popular Product">
    </a>
    <p class="fs-5 playfair">Flecked cotton blend</p>
    <p class="montserrat fs-6 blue-text">$175.00 USD</p>
@@ -145,7 +145,7 @@
 
   <div class="box col-md">
   <a href="beproproduct.php">
-    <img class="img-fluid img-shirt" src="./assets/images/image/index/imagesJulia/shirt3.png" alt="">
+    <img class="img-fluid img-shirt" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/shirt3.png" alt="">
     </a>
     <p class="fs-5 playfair">Striped cotton t-shirt</p>
     <p class="montserrat fs-6 blue-text">$200.00 USD</p>
@@ -164,7 +164,7 @@
 
   <div class="box col-sm">
      <a href="beproproduct.php">
-        <img class="img-fluid img-shirt" src="./assets/images/image/index/imagesJulia/shirt4.png" alt="Tshirt rouge rayé">
+        <img class="img-fluid img-shirt" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/shirt4.png" alt="Tshirt rouge rayé">
      </a>
     <p class="fs-5 playfair">V-neck cotton t-shirt</p>
     <p class="montserrat fs-6 blue-text">$100.00 USD</p>
@@ -195,7 +195,7 @@
 
 <div class="box col-md">
     <a href="beproproduct.php">
-       <img class="img-fluid img-shirt" src="./assets/images/image/index/imagesJulia/juperose.png" alt="Popular Product">
+       <img class="img-fluid img-shirt" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/juperose.png" alt="Popular Product">
     </a>
    <p class="fs-5 playfair">Message cotton t-shirt</p>
    <p class="montserrat fs-6 blue-text">$100.00 USD</p>
@@ -206,7 +206,7 @@
 <div class="row">
 <div class="col-sm-10">
    <a href="beproproduct.php">
-     <img class="img-fluid img-shirt" src="./assets/images/image/index/imagesJulia/pullbleu.png" alt="">
+     <img class="img-fluid img-shirt" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/pullbleu.png" alt="">
   </a>
 </div>
 <div class="col-2 pt-1">
@@ -222,7 +222,7 @@
 
 <div class="box col-md">
     <a href="beproproduct.php">
-       <img class="img-fluid img-shirt" src="./assets/images/image/index/imagesJulia/chalerose.png" alt="">
+       <img class="img-fluid img-shirt" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/chalerose.png" alt="">
     </a>
   <p class="fs-5 playfair">Ruffle sleeve t-shirt</p>
   <p class="montserrat fs-6 blue-text">$175.00 USD</p>
@@ -230,7 +230,7 @@
 
 <div class="box col-md">
       <a href="beproproduct.php">
-            <img class="img-fluid img-shirt" src="./assets/images/image/index/imagesJulia/imageproduct1.png" alt="">
+            <img class="img-fluid img-shirt" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/imageproduct1.png" alt="">
       </a>
   <p class="fs-5 playfair">Double layer top</p>
   <p class="montserrat fs-6 blue-text">$200.00 USD</p>
@@ -251,7 +251,7 @@
 <div class="carousel-inner">
 
   <div class="carousel-item active align-items-center text-center">
-    <img class="img-fluid align-items-center text-center" src="./assets/images/image/index/imagesJulia/GirlS.png" alt="">
+    <img class="img-fluid align-items-center text-center" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/GirlS.png" alt="">
     <div class="position-absolute top-50 start-50 translate-middle">
   <p class="montserrat text-white h6 text-center fw-light">EVENT</p>
     <p class="playfair text-white fs-4 text-center fw-light">London Fashion Week September 2017</p>
@@ -260,7 +260,7 @@
  </div>
 
   <div class="carousel-item align-items-center text-center">
-  <img class="img-fluid align-items-center text-center" src="./assets/images/image/index/imagesJulia/GirlS.png" alt="">
+  <img class="img-fluid align-items-center text-center" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/GirlS.png" alt="">
     <div class="position-absolute top-50 start-50 translate-middle">
   <p class="montserrat text-white h6 text-center fw-light">EVENT</p>
     <p class="playfair text-white fs-4 text-center fw-light">London Fashion Week September 2017</p>
