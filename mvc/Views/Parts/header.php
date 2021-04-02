@@ -14,7 +14,7 @@
     <div class="col-3">
       <div class="float-start">
          <nav class="nav">
-              <a class="fs-4 fst-italic text-white playfair fw-bold nav-link" href="index.php">Be.Pro</a>
+              <a class="fs-4 fst-italic text-white playfair fw-bold nav-link" href="products/index.php">Be.Pro</a>
         </nav>
         </div>
     </div>
@@ -22,7 +22,7 @@
     <div class="col-2">
     <div class="float-end">
        <nav class="nav">
-               <a class="fs-6 text-white montserrat nav-link" href="index.php">HOME</a>
+               <a class="fs-6 text-white montserrat nav-link" href="Products/index.php">HOME</a>
                     </nav>
        </div>
        </div>
