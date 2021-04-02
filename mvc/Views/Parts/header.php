@@ -30,7 +30,7 @@
        <div class="col-2">
          <div class="float-start">
         <nav class="nav">
-              <a class= "fs-6 text-white montserrat nav-link" href="beproproduct.php">SHOP</a>
+              <a class= "fs-6 text-white montserrat nav-link" href="products/product/1">SHOP</a>
        </nav>
        </div>
        </div>
