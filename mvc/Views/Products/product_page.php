@@ -1,5 +1,3 @@
-<?php var_dump($data); ?>
-
 <link href="<?= WEBROOT ?>assets/styles/index.css" rel="stylesheet">
 
 <!-- MEN LIFESTYLE CLOTHING -->
@@ -55,7 +53,7 @@
                        <div class="row">   <!-- ROW 3 COL GAUCHE -->
                          <div class="col-sm">
                          <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-                         <p class="fs-5 red-text fw-bold montserrat"><?= $data['prix'] ?><span class="fs-6 grey-text text-decoration-line-through fw-light"><?= $data['prix_promo'] ?></span>$</p> &emsp;
+                         <p class="fs-5 red-text fw-bold montserrat"><?= $data['prix'] ?>$<span class="fs-6 grey-text text-decoration-line-through fw-light"><?= $data['prix_promo'] ?>$</span></p> &emsp;
 
                          <div class="montserrat btn-group" role="group" aria-label="Basic example">
                                <button type="button" class="button-addcart button-moins fw-bold">-</button>
@@ -75,7 +73,7 @@
 
 
   <!-- COLONNE MILIEU -->      <div class="col-sm-4 p-3 bg"> 
-<img class="img-fluid img-shirt" src="<?= WEBROOT ?>/assets/images/image/index/imagesJulia/imageproduct1.png" alt=""><?= $data['photo1'] ?>
+<img class="img-fluid img-shirt" src="<?= $data['photo1'] ?>" alt="">
         </div>  <!-- FIN COLONNE MILIEU -->
 
 
